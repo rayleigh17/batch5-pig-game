@@ -90,7 +90,7 @@ function init() {
         PPanel0.classList.toggle('active');
         PPanel1.classList.toggle('active');
 }
-
+// reset all
 document.querySelector('.btn-new').addEventListener('click', init);
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
