@@ -86,7 +86,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   // if game playing is true
   if (isPlaying) {
 
-    // 1. random number
+    //random number
     var dice1 = Math.floor(Math.random() * 6 + 1);
     var dice2 = Math.floor(Math.random() * 6 + 1);
     
@@ -96,7 +96,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     Ddice1.src = 'dice-' + dice1 + '.png';
     Ddice2.src = 'dice-' + dice2 + '.png';
 
-    //3. Update the round score IF the rolled number was NOT a 1
+    //Update the round score IF the rolled number was NOT a 1
     if (dice1 !== 1 && dice2 !== 1) {
       // get the round score from dice rolls
       Playerscore += dice1 + dice2;
